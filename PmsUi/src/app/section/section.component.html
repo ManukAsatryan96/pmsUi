@@ -1,0 +1,46 @@
+
+<div class="container">
+  <div class="row images">
+    <div class="col-lg-3 col-md-4 Img">
+      <div (click)="scrollInToView('1')">
+        <img class="rotate-center img-fluid" src="./assets/img/fast.jpg" >
+        <h1>fast</h1>
+      </div>
+
+    </div>
+    <div class="col-lg-3 col-md-4 Img">
+      <div (click)="scrollInToView('2')" >
+        <img class="rotate-center  img-fluid" src="./assets/img/easy.jpg" >
+        <h1>Easy</h1>
+      </div>
+
+    </div>
+    <div class="col-lg-3 col-md-4 Img">
+      <div (click)="scrollInToView('3')">
+        <img class="rotate-center  img-fluid" src="./assets/img/automated.jpg" >
+        <h1>Automated</h1>
+      </div>
+
+    </div>
+    <div class="shortAbout" id="shortAbout">
+      <h1>Short About</h1>
+    </div>
+    <div class="icon">
+      <div id="1" class="iconImg">
+        <img src="./assets/img/fast2.jpg">
+        <h1>{{'about_fast' | translate}}</h1>
+
+      </div>
+      <div id="2" class="iconImg">
+        <h1>About Easy</h1>
+        <img class="asd" src="./assets/img/easy2.jpg" >
+      </div>
+      <div id="3" class="iconImg">
+        <img src="./assets/img/automated2.jpg" alt="">
+        <h1>About Automated</h1>
+      </div>
+    </div>
+
+  </div>
+</div>
+

@@ -1,0 +1,39 @@
+
+.footer {
+  display: flex;
+  background-image: url("/assets/img/footer_bg1.jpg");
+  background-repeat: no-repeat;
+  height: auto;
+  margin: auto 0;
+
+  .iconsFoo {
+    display: flex;
+    justify-content: space-between !important;
+    height: 70px;
+    margin-top: 60px;
+    width: 100%;
+    a {
+      color: #F7F7F7;
+      font-size: 15px;
+      text-decoration: none;
+
+      :hover {
+        cursor: pointer;
+      }
+    }
+
+    .iconFoo {
+      :hover {
+        cursor: pointer;
+      }
+      .imgSize {
+        height: 70%;
+        margin: 0 5px;
+
+      }
+    }
+
+
+  }
+
+}

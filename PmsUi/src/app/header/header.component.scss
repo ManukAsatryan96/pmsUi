@@ -1,0 +1,167 @@
+nav {
+  display: flex;
+
+
+}
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+
+  .logo {
+    @media (max-width: 767px){
+      display: none;
+    }
+
+    display: flex;
+    background-image: url("/assets/img/pm_logo_full_720.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    margin: 15px 20px;
+
+
+    h1 {
+      margin: 0;
+      height: auto;
+      color: aliceblue;
+    }
+  }
+
+  //.navBar {
+  //  margin: auto;
+  //
+  //  a {
+  //    margin: auto 10px;
+  //    font-size: 20px;
+  //
+  //  }
+  //}
+
+  .logIn {
+    margin: 20px 20px;
+    font-size: 20px;
+    border-radius: 15px;
+
+  }
+}
+
+.slider {
+  //width: 60%;
+  height: auto;
+  margin: 50px auto;
+
+  @media (max-width: 768px){
+    margin-top: 56px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 415px;
+    margin: 2px;
+
+  }
+}
+
+.bg-light {
+  background-color: transparent !important;
+  @media (max-width: 767px ) {
+    position: fixed;
+    background-color: #ded8d8 !important;
+    z-index: 10000;
+
+  }
+
+}
+
+
+
+.flex-self {
+  label {
+    margin: auto 0;
+  }
+
+  span {
+    color: aliceblue;
+  }
+}
+
+.navbar-nav {
+
+
+  button {
+    color: #014D65;
+    background-color: #F7F7F7;
+    padding: 10px 40px;
+    border: none;
+    text-decoration: none;
+  }
+}
+
+.carousel-control-next, .carousel-control-prev {
+  background-color: rgba(189, 189, 186, 0.5);
+}
+
+.carousel-indicators {
+  li {
+    background-color: rgba(97, 97, 94, 0.5);
+
+  }
+}
+.pointer {
+  img {
+    height: 30px;
+    width: 60px;
+    margin-top: 30px;
+  }
+}
+.navigationCOntrols {
+  .navControls {
+    color: aliceblue !important;
+    font-size: 20px !important;
+    cursor: pointer !important;
+    transition: 0.3s;
+    @media (max-width: 768px ) {
+      color: #100f0f !important;
+
+    }
+    &:hover {
+      @media (max-width: 768px ){
+        color: #18cd18 !important;
+      }
+      transition: 0.3s;
+      color: #014D65 !important;
+    }
+  }
+}
+
+.carousel-control-next {
+  right: -172px;
+  @media (max-width: 1200px){
+    right: 0;
+  }
+
+}
+
+.carousel-control-prev {
+  left: -172px;
+  @media (max-width: 1200px){
+    left: 0;
+  }
+}
+.navbar-collapse {
+  margin-left: 20px ;
+}
+
+
+
+
+
+//
+//.asdasd {
+//  height: 2000px;
+//  width: 500px;
+//  background-color: #0f0f10;
+//}
